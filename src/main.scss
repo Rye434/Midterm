@@ -1,0 +1,34 @@
+$primary-color: red;
+
+h1 {
+  color: $primary-color;
+}
+p{
+  line-height: 0.5em;
+  margin-top: 8px;
+}
+ul{
+  padding-left: 0.5em;
+  float: left;
+  display: inline-block;
+}
+li{
+  padding: 1em;
+  list-style: none;
+}
+#details{
+  width: 65%;
+  padding: 2em;
+  display: inline-block;
+  float: right;
+}
+#columnTitle{
+  font-size: 3em;
+  text-align: center;
+}
+#container{
+  width: 30%;
+}
+.name{
+  text-transform: capitalize;
+}
